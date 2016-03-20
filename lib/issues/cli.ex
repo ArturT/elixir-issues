@@ -50,6 +50,7 @@ defmodule Issues.CLI do
 
   def convert_to_list_of_hashdicts(list) do
     list
+    # TODO use Map instead
     # http://elixir-lang.org/docs/stable/elixir/HashDict.html
     # HashDict module is deprecated. Use the Map module instead.
     |> Enum.map(&Enum.into(&1, HashDict.new))

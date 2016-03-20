@@ -12,6 +12,7 @@ defmodule Issues.GithubIssues do
   end
 
   def handle_response({:ok, %HTTPoison.Response{status_code: 200, body: body}}) do
+    # TODO use exjsx
     { :ok, :jsx.decode(body) }
   end
 

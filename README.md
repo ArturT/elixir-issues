@@ -18,6 +18,10 @@ Test fetch:
     iex> Issues.GithubIssues.fetch("elixir-lang", "elixir")
     iex> Issues.GithubIssues.fetch("ArturT", "knapsack")
 
+Test run:
+
+    iex> Issues.CLI.run(["ArturT", "knapsack"])
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:

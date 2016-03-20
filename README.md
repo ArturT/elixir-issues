@@ -4,6 +4,12 @@ Project based on example in book Programming Elixir by Dave Thomas.
 
 CLI app to fetch issues from Github.
 
+## Tips
+
+Test fetch:
+
+    iex> Issues.GithubIssues.fetch("elixir-lang", "elixirx")
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:

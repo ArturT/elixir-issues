@@ -15,7 +15,7 @@ Test CLI:
 
 Test fetch:
 
-    iex> Issues.GithubIssues.fetch("elixir-lang", "elixirx")
+    iex> Issues.GithubIssues.fetch("elixir-lang", "elixir")
 
 ## Installation
 

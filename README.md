@@ -22,6 +22,18 @@ Test run:
 
     iex> Issues.CLI.run(["ArturT", "knapsack"])
 
+## Command-Line Executable
+
+    $ mix escript.build
+
+Run program:
+
+    $ ./issues ArturT knapsack 2
+    nu | created_at           | title
+    ---+----------------------+---------------------------------------------
+    15 | 2015-04-16T01:51:08Z | Generate multiple reports and aggregate them
+    32 | 2016-03-09T16:20:44Z | Using Knapsack with shoulda_context
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:

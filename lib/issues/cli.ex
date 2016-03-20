@@ -47,4 +47,11 @@ defmodule Issues.CLI do
     IO.puts "Error fetching from Github: #{message}"
     System.halt(2)
   end
+
+  def convert_to_list_of_hashdicts(list) do
+    list
+    # http://elixir-lang.org/docs/stable/elixir/HashDict.html
+    # HashDict module is deprecated. Use the Map module instead.
+    |> Enum.map(&Enum.into(&1, HashDict.new))
+  end
 end

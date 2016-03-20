@@ -16,6 +16,7 @@ Test CLI:
 Test fetch:
 
     iex> Issues.GithubIssues.fetch("elixir-lang", "elixir")
+    iex> Issues.GithubIssues.fetch("ArturT", "knapsack")
 
 ## Installation
 

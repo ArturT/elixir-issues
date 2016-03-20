@@ -1,6 +1,6 @@
 # Issues
 
-**TODO: Add description**
+Project based on example in book Programming Elixir by Dave Thomas.
 
 ## Installation
 

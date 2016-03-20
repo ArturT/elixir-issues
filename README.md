@@ -6,6 +6,13 @@ CLI app to fetch issues from Github.
 
 ## Tips
 
+Test CLI:
+
+    $ mix run -e 'Issues.CLI.run(["-h"])'
+    usage: issues <user> <project> [ count | 4 ]
+
+    $ mix run -e 'Issues.CLI.run(["elixir-lang", "elixir"])'
+
 Test fetch:
 
     iex> Issues.GithubIssues.fetch("elixir-lang", "elixirx")

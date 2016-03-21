@@ -33,6 +33,9 @@ defmodule Issues.Mixfile do
     [
       { :httpoison, "~> 0.8" },
       { :jsx, "~> 2.8" },
+      { :ex_doc, github: "elixir-lang/ex_doc" },
+      # markdown processor to be used by ex_doc
+      { :earmark, ">= 0.2.1" },
     ]
   end
 
